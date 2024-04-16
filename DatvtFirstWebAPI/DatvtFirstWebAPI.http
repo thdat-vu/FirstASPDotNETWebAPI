@@ -1,0 +1,36 @@
+@DatvtFirstWebAPI_HostAddress = https://localhost:7276
+
+GET {{DatvtFirstWebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{DatvtFirstWebAPI_HostAddress}}/api/person
+
+###
+
+POST {{DatvtFirstWebAPI_HostAddress}}/api/person
+Content-Type: application/json
+
+{
+  //Person
+}
+
+###
+
+GET {{DatvtFirstWebAPI_HostAddress}}/api/person/0
+
+###
+
+DELETE {{DatvtFirstWebAPI_HostAddress}}/api/person?id=0
+
+###
+
+PUT {{DatvtFirstWebAPI_HostAddress}}/api/person
+Content-Type: application/json
+
+{
+  //Person
+}
+
+###
